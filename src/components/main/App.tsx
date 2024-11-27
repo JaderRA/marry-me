@@ -4,14 +4,11 @@ import TextCard from "../text-card/TextCard";
 import Button from "../button/Button";
 import Confetti from "../confetti/Confetti";
 import ImageSlider from "../image-slider/Image-slider";
+import overlayImage from "../../assets/img/overlay-image.jpg";
 
 function App() {
   const firstButtonRef = useRef<HTMLButtonElement | null>(null);
   const secondButtonRef = useRef<HTMLButtonElement | null>(null);
-  const images = [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/330px-Flower_poster_2.jpg",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flower_poster_2.jpg/330px-Flower_poster_2.jpg",
-  ];
   let paddingCounter = 10;
   let fontSizeCounter = 18;
   const [showConfettiAndYesText, setShowConfetti] = useState(false);
@@ -53,11 +50,16 @@ function App() {
     >
       {showConfettiAndYesText && <Confetti />}
       {showConfettiAndYesText && (
-        <div className="text-5xl font-leagueScript font-semibold h-screen w-screen absolute z-[15] flex items-center text-[#feb81d] animate-tracking-in-expand">
+        <div className="text-5xl font-leagueScript font-semibold h-full w-full absolute z-[15] flex justify-center  flex-col gap-4 text-[#feb81d] animate-tracking-in-expand right-0 left-0">
           Ela disse SIM!!!
+          <img
+            src={overlayImage}
+            className="max-w-full max-h-full animate-tracking-in-expand"
+            alt=""
+          ></img>
         </div>
       )}
-      <ImageSlider images={images} interval={3000}></ImageSlider>
+      <ImageSlider></ImageSlider>
       <TextCard></TextCard>
       <div className="flex flex-row w-full h-fit items-center justify-start px-10">
         <Button
