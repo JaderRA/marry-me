@@ -14,62 +14,62 @@ const items = [
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="1">
     <img
       src={ago2017}
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="2">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={photo2018}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="3">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={set2019}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="4">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={photo2020}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="5">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={jan2021}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="6">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={mar22}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="7">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={jan2023}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="8">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={fev2023}
       alt=""
     ></img>
   </div>,
   <div className="bg-[#e2c1d0]/40 rounded-lg" data-value="9">
     <img
-      className="max-h-[240px] w-full h-full object-contain"
+      className="max-h-[240px] w-full h-full object-contain rounded-lg"
       src={ago2024}
       alt=""
     ></img>

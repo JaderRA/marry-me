@@ -44,7 +44,7 @@ function App() {
   };
   return (
     <div
-      className={`bg-gradient-to-t from-[#e2c1d0] to-[#fbfbfa] h-screen w-screen px-5 py-3 absolute ${
+      className={`bg-gradient-to-t from-[#e2c1d0] to-[#fbfbfa] h-fit w-screen px-5 py-3 absolute ${
         showConfettiAndYesText ? "dark-overlay" : ""
       }`}
     >
