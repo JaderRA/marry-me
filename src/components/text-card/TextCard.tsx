@@ -16,9 +16,8 @@ const TextCard: React.FC = () => {
         dá pra imaginar minha vida sem você. Por mais que eu tente não sei se um
         dia serei capaz de conseguir te agradecer o suficiente pelo tanto que me
         faz feliz diariamente e meu eu de agora - escrevendo esta declaração -
-        espera do fundo do meu coração que embora tudo isso seja muito simples,
-        foi feito e pensado com muito carinho para te fazer um prometido
-        convite:
+        espera do fundo do coração que saiba que embora tudo isso seja muito
+        simples, foi feito e pensado com muito carinho para te fazer um pedido:
       </p>
       <p className="font-leagueScript text-2xl font-extrabold text-[#2f2e8a] mb-1">
         Quer casar comigo?
