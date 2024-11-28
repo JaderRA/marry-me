@@ -80,7 +80,7 @@ const Carousel = () => (
   <AliceCarousel
     autoPlay
     autoPlayStrategy="none"
-    autoPlayInterval={1000}
+    autoPlayInterval={2000}
     animationDuration={1000}
     animationType="slide"
     infinite
