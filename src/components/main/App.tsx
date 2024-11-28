@@ -44,7 +44,7 @@ function App() {
   };
   return (
     <div
-      className={`bg-gradient-to-t from-[#e2c1d0] to-[#fbfbfa] h-screen w-screen px-5 py-3 absolute ${
+      className={`bg-gradient-to-t from-[#e2c1d0] to-[#fbfbfa] flex flex-col gap-2 h-screen w-screen px-5 py-3 absolute ${
         showConfettiAndYesText ? "dark-overlay" : ""
       }`}
     >
@@ -59,7 +59,9 @@ function App() {
           ></img>
         </div>
       )}
+
       <ImageSlider></ImageSlider>
+
       <TextCard></TextCard>
       <div className="flex flex-row w-full h-fit items-center justify-start px-10">
         <Button
