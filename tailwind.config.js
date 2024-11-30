@@ -10,6 +10,7 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
         meaCulpa: ["Mea Culpa", "sans-serif"],
         leagueScript: ["League Script", "Mea Culpa"],
+        dancingScript: ["Dancing Script", "sans-serif"],
       },
     },
   },
