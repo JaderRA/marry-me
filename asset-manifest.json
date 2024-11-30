@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/marry-me/static/css/main.83bbe136.css",
-    "main.js": "/marry-me/static/js/main.c05e6b78.js",
+    "main.css": "/marry-me/static/css/main.b7827205.css",
+    "main.js": "/marry-me/static/js/main.0ff1df73.js",
     "static/media/jan_2023.jpg": "/marry-me/static/media/jan_2023.ad6b1ce767d6e99bb1f6.jpg",
     "static/media/fev_2023.jpg": "/marry-me/static/media/fev_2023.77ad5bf4cd1ee4b5a095.jpg",
     "static/media/2020.jpg": "/marry-me/static/media/2020.a53e3fac53c0104dd240.jpg",
@@ -13,11 +13,11 @@
     "static/media/overlay-image.jpg": "/marry-me/static/media/overlay-image.7bceab470133fde20865.jpg",
     "static/media/mar_2022.jpg": "/marry-me/static/media/mar_2022.7a5b76c82400bd55a3f7.jpg",
     "index.html": "/marry-me/index.html",
-    "main.83bbe136.css.map": "/marry-me/static/css/main.83bbe136.css.map",
-    "main.c05e6b78.js.map": "/marry-me/static/js/main.c05e6b78.js.map"
+    "main.b7827205.css.map": "/marry-me/static/css/main.b7827205.css.map",
+    "main.0ff1df73.js.map": "/marry-me/static/js/main.0ff1df73.js.map"
   },
   "entrypoints": [
-    "static/css/main.83bbe136.css",
-    "static/js/main.c05e6b78.js"
+    "static/css/main.b7827205.css",
+    "static/js/main.0ff1df73.js"
   ]
 }
